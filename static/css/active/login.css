@@ -1,0 +1,55 @@
+.middle-box {
+  max-width: 300px !important;
+}
+.forgetPassword {
+  width: 90%;
+  height: 500px;
+  margin: 20px auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.step {
+  width:55%;
+  margin:20px auto;
+}
+.forget-box {
+  width:60%;
+  margin:0 auto;
+}
+.updateTitle {
+  padding: 20px 30px;
+  border-bottom: 1px solid #ccc
+}
+.userInfo {
+  margin:20px 0;
+  text-align: right;
+  line-height: 36px;
+}
+.nextStep{
+  margin-top: 60px;
+  float: right;
+}
+.middle-box{
+  padding-top: 100px !important;
+}
+.dangerNews{
+  margin-top:3px;float:left
+}
+.logoPh{
+  width: 236px;
+  height: 50px;
+  margin-left: -10%;
+  margin-bottom: 10px;
+}
+.errorPrompt{
+  height: 18px;
+}
+.loginMargin {
+  margin-bottom: 0px !important;
+}
+/*.help.is-danger{*/
+  /*margin-top: 0px !important;*/
+/*}*/
+.el-dialog--tiny{
+  width: 60% !important;
+}

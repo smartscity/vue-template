@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
+  <link href="css\bootstrap.min.css?v=3.3.6" rel="stylesheet">
+  <link href="css\style.min.css?v=4.1.0" rel="stylesheet">
+  <style>
+    .bgm{
+      background: url("img/earth.jpg") no-repeat right bottom;
+      background-color:#000;
+      width:100%;
+      height:100%;
+    }
+    .box{
+      width:500px;
+      padding-top:40px;
+      text-align:center;
+      color:#fff;
+      line-height:40px;
+      font-size:22px;
+    }
+    .box h1{
+      font-size:160px;
+      color:#fff;
+      font-weight:300;
+    }
+  </style>
+</head>
+<body>
+  <div class="bgm">
+    <div class="box">
+      <h1>404</h1>
+      <p>页面未找到！</p>
+      <div class="error-desc" style="padding-top:10px;">
+        抱歉，页面好像去火星了~
+      </div>
+      <p style="text-align:left; padding:10px 120px;">
+        <a onclick="goHome()">Return home</a>
+        <br>
+      </p>
+    </div>
+    <!--<div class="middle-box text-center animated fadeInDown">-->
+    <!--<h1>500</h1>-->
+    <!--<h3 class="font-bold">服务器内部错误</h3>-->
+
+    <!--<div class="error-desc">-->
+    <!--服务器好像出错了... <br>您可以返回主页看看 <br>-->
+    <!--<a href="index.html" class="btn btn-primary m-t">主页</a>-->
+    <!--</div>-->
+    <!--</div>-->
+  </div>
+</body>
+<script type="text/javascript">
+  function goHome(){
+    window.location.pathname='';
+  }
+</script>
+
+</html>
